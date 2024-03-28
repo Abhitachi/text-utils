@@ -1,0 +1,35 @@
+.btns{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.btns > span{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.text-area{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main{
+   
+}
+
+label{
+    text-align: start;
+    font-size: large;
+    font-weight: bolder;
+}
